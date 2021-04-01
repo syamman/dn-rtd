@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'Caf Franaoise';
+    src: url("https://www.dearnestle.com.my/themes/custom/dearnestle_theme/assets/fonts/Caf-Franaoise.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: 'candara';
+    src: url("https://www.dearnestle.com.my/themes/custom/dearnestle_theme/assets/fonts/candara.ttf") format("truetype");
+  }
+  
+  .nav-menu-yogurt {
+    margin-top: 20px;
+    background-color: #8dc63f;
+  }
+  .nav-menu-yogurt .section-menu {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    padding-left: 1.5em;
+    color: #fff;
+  }
+  .nav-menu-yogurt .fa {
+    font-size: 20px;
+    padding: 5px;
+  }
+  .yogurt-home-banner-m{
+    width:100%;
+  }
+  @media only screen and (max-width: 768px) {
+  
+    .event-yogurt-video{
+        width: 100%;
+        padding-top: 38px;
+        padding-bottom: 35px;
+        background-image: url("../images/yogurt-video-background_m_v2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .event-yogurt-video button
+    {
+        margin: 50px auto;
+        display: block;
+        width: 120px;
+        height: 150px;
+        opacity:0;
+    }
+    .event-yogurt-video .video-wrapper{
+        width: 100%;
+        max-width: 680px;
+        margin: 0 auto;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+  
+    .event-yogurt-video{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-image: url("../images/yogurt-video-background.jpg");
+        background-repeat: no-repeat;
+        /*background-size: 100% 100%;*/
+        background-position: 50% 50%;
+    }
+    .event-yogurt-video button
+    {
+        margin: 100px auto;
+        display: block;
+        width: 190px;
+        height: 140px;
+        opacity:0;
+    }
+    .event-yogurt-video .video-wrapper{
+       /* width: 80%;*/
+        max-width: 750px;
+        margin: 0 auto;
+    }
+  }
+  
+  .event-yogurt-video-hide
+  {
+    width:0;
+    height:0;
+    overflow:hidden;
+  }
+  
+  .video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    /*padding-top:30px;*/
+    height:0;
+    overflow:hidden;
+  }
+  
+  .video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+  
+  .item-yogurt-asli h2{
+    font-weight: 900 !important;
+  }
+  
+  /* .item-yogurt-asli b{
+    font-size: 17px;
+  } */
+  
+  .event-yogurt-asli-carousel .header h4{
+    font-family: 'candara';
+    color:black;
+    font-weight: bold;
+  
+  }
+  .event-yogurt-asli-carousel .header h1{
+    font-family: 'Caf Franaoise';
+    color:#041d94;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .event-yogurt-asli-carousel{
+        width: 100%;
+        min-height: 400px;
+    }
+  
+    .item-yogurt-asli{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        background-color: white;
+        min-height:280px;
+        width:90%;
+        margin:auto;
+        border-style: groove;
+        border-color: #cccccc4f;
+    }
+    .event-yogurt-asli-carousel .header{
+        text-align: center;
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .event-yogurt-asli-carousel{
+        width: 100%;
+        min-height: 790px;
+    }
+  
+    .item-yogurt-asli .textcontainer{
+      height:150px;
+    }
+  
+    .item-yogurt-asli img{
+      object-fit: none;
+      object-position: 50% 50%;
+    }
+  
+    .item-yogurt-asli{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        width:700px;
+        background-color: white;
+        min-height:280px;
+        border-style: groove;
+        border-color: #cccccc4f;
+    }
+    .event-yogurt-asli-carousel .header{
+        text-align: center;
+        padding-top: 43px;
+        padding-bottom: 23px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .event-yogurt-asli-carousel{
+        width: 100%;
+        min-height: 790px;
+    }
+  
+    .item-yogurt-asli .textcontainer{
+      height:155px;
+    }
+  
+    .item-yogurt-asli img{
+      object-fit: none;
+      object-position: 50% 50%;
+    }
+  
+    .item-yogurt-asli{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        background-color: white;
+        min-height:280px;
+        border-style: groove;
+        border-color: #cccccc4f;
+    }
+    .event-yogurt-asli-carousel .header{
+        text-align: center;
+        padding-top: 43px;
+        padding-bottom: 23px;
+    }
+  }
+  
+  #yogurt-asli .prev{
+  
+    position: absolute;
+    cursor: pointer;
+    height: 72px;
+    width: 36px;
+    opacity:1;
+    z-index: 100;
+    top: 180px;
+    left:0;
+    background-color:#193769;
+    border-bottom-right-radius: 36px;
+    border-top-right-radius: 36px;
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.5);
+  }
+  #yogurt-asli .next{
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+    height: 72px;
+    width: 36px;
+    opacity: 1;
+    top: 180px;
+    position: absolute;
+    visibility: inherit;
+    background-color:#193769;
+    border-bottom-left-radius: 36px;
+    border-top-left-radius: 36px;
+    box-shadow: -1px 0 2px rgba(0, 0, 0, 0.5);
+    box-shadow: -1px 0 2px rgba(0, 0, 0, 0.5);
+  
+  }
+  #yogurt-asli .next .button{
+    left: 18px;
+    bottom: 0;
+    display: block;
+    margin: auto 0;
+    position: absolute !important;
+    top: 16px;
+  }
+  #yogurt-asli .prev .button{
+    right: 18px;
+    bottom: 0;
+    display: block;
+    margin: auto 0;
+    position: absolute !important;
+    top: 16px;
+  }
+  
+  .resipiLinkBtn{
+    margin-top: 22px;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:#041d94d9;
+    border: none;
+    box-shadow: 0 5px #487cf1;
+  }
+  .resipiLinkBtn:hover {background-color: #021986;}
+  
+  .resipiLinkBtn:active {
+    background-color: #021986;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+  
+  .event-yogurt-main-banner{
+    position: relative;
+     z-index : 1;
+  }
+  
+  /* .yogurt_page_navigation_btn{
+    position:absolute;
+    bottom:10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+  .yogurt_page_navigation_btn img{
+    width: 32%;
+    height: 55px;
+    cursor: pointer;
+  } */
+  
+  @media only screen and (max-width: 768px){
+    .yogurt_page_navigation_btn{
+        display: none;
+        position:absolute;
+        bottom:30px;
+        width:100%;
+        justify-content: center;
+     }
+     .item-yogurt-asli b{
+        font-size: 15px;
+        font-weight:500 !important;
+    }
+  }
+  @media only screen and (min-width: 768px){
+    .yogurt_page_navigation_btn{
+        position:absolute;
+        bottom:30px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+     }
+     .item-yogurt-asli b{
+        font-size: 17px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px){
+    .yogurt_page_navigation_btn img{
+  
+        width:244px;
+        height: 55px;
+        border-radius: 52px;
+        cursor: pointer;
+        margin: 11px;
+    }
+  }
+  @media only screen and (min-width: 992px){
+    .yogurt_page_navigation_btn img{
+  
+        width:284px;
+        height: 55px;
+        border-radius: 52px;
+        cursor: pointer;
+        margin: 11px;
+    }
+  }
+  
+  .owl-stage {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .owl-item{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto !important;
+  }
