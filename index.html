@@ -1063,6 +1063,8 @@
                           top: 59%;
                           max-width: 46rem;
                           transform: translateY(-50%);
+                          -webkit-transform: translateY(-50%);
+                          -ms-transform: translateY(-50%);
                           cursor: pointer;
                         }
                         section.top-banner img.cta-mobile {
@@ -1086,6 +1088,8 @@
                           top: 0;
                           left: 50%;
                           transform: translateX(-50%);
+                          -webkit-transform: translateX(-50%);
+                          -ms-transform: translateX(-50%);
                           width: 58%;
                         }
                         section.video-1 img,
@@ -1101,6 +1105,8 @@
                           max-width: 40rem;
                           left: 50%;
                           transform: translateX(-50%);
+                          -webkit-transform: translateX(-50%);
+                          -ms-transform: translateX(-50%);
                         }
                         .product-thumb {
                           background-color: #fff;
@@ -1154,7 +1160,7 @@
                           width="100%"
                         />
                         <img
-                          src="http://dearnestle.com.my/sites/default/files/2021-03/rtd-dairy/mobile/section1_0.jpg"
+                          src="https://www.dearnestle.com.my/sites/default/files/2021-03/rtd-dairy/mobile/Mobile-Banner-1.jpg"
                           alt="top banner Mobile"
                           class="visible-xs visible-sm"
                           width="100%"
@@ -1191,7 +1197,6 @@
                           width="100%"
                         />
                       </section>
-
 
                       <section class="video-1">
                         <img
@@ -1237,8 +1242,10 @@
                             iframe.width = target.clientWidth;
                             iframe.src =
                               "https://www.youtube.com/embed/" +
-                              embended_url_1 + "&autoplay=1";
-                            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              embended_url_1 +
+                              "&autoplay=1";
+                            iframe.allow =
+                              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
                             iframe.setAttribute("frameborder", 0);
 
                             target.classList.remove("pristine");
@@ -1316,8 +1323,10 @@
                             iframe.width = target.clientWidth;
                             iframe.src =
                               "https://www.youtube.com/embed/" +
-                              embended_url_1 + "&autoplay=1";
-                            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              embended_url_1 +
+                              "&autoplay=1";
+                            iframe.allow =
+                              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
                             iframe.setAttribute("frameborder", 0);
 
                             target.classList.remove("pristine");
