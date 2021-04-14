@@ -8835,8 +8835,8 @@ button.close {
     font-family: "Frutiger LT Std 55 Black";
     src: url(./fonts/FrutigerLTStd-Black.eot);
     src: url(./fonts/FrutigerLTStd-Black.eot?#iefix) format("embedded-opentype"),
-        url(https://www.dearnestle.com.my/themes/custom/dearnestle_theme/assets/fonts/FrutigerLTStd-Black.otf) format("opentype"),
-        url(https://www.dearnestle.com.my/themes/custom/dearnestle_theme/assets/fonts/FrutigerLTStd-Black.ttf) format("truetype"), url(https://www.dearnestle.com.my/themes/custom/dearnestle_theme/assets/fonts/FrutigerLTStd-Black.woff) format("woff");
+        url(./fonts/FrutigerLTStd-Black.otf) format("opentype"),
+        url(./fonts/FrutigerLTStd-Black.ttf) format("truetype"), url(./fonts/FrutigerLTStd-Black.woff) format("woff");
     font-weight: 900;
     font-style: normal;
 }
