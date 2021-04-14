@@ -1045,6 +1045,9 @@
                 .thank-you-page {
                   margin-top: 1.4rem;
                 }
+                .thank-you-page .container {
+                  max-width: 970px;
+                }
                 b {
                   font-family: "Frutiger LT Std 55 Black";
                 }
@@ -1111,7 +1114,9 @@
                   padding: 0 3rem;
                 }
                 .thank-you-page section.desc .copy {
-                  padding: 0 2rem;
+                  padding: 0 3rem;
+                }
+                @media (min-width: 1200px) {
                 }
                 @media (max-width: 678px) {
                   .thank-you-page section.desc {
@@ -1121,7 +1126,7 @@
                     padding: 0 2rem;
                   }
                   .thank-you-page section.desc .copy {
-                    padding: 0 0;
+                    padding: 0 1.5rem;
                   }
                 }
               </style>
@@ -1146,12 +1151,14 @@
                       <h1 class="mb-2">Sorry, we are fully redeemed.</h1>
                       <p class="mb-1">
                         <b
-                          ><i>Our sampling campaign has reached its quantity limit
-                          and is now closed.</i></b
+                          ><i
+                            >Our sampling campaign has reached its quantity
+                            limit and is now closed.</i
+                          ></b
                         >
                       </p>
                       <hr class="mb-2" />
-                      <p>
+                      <p class="mb-3">
                         In the meantime, check out our latest events and other
                         content you may love:
                       </p>
@@ -1166,6 +1173,7 @@
                       </div>
                       <div class="copy">
                         <p>Try our easy home- <br />cooked meal ideas</p>
+                        <br />
                         <button>View recipes</button>
                       </div>
                     </div>
@@ -1180,6 +1188,7 @@
                           Join latest Contests &amp; <br />
                           Events
                         </p>
+                        <br />
                         <button>Learn more</button>
                       </div>
                     </div>
@@ -1191,8 +1200,9 @@
                       </div>
                       <div class="copy">
                         <p>
-                          Update your profile to receive personalised offers you
-                          will love
+                          Update your profile <br />
+                          to receive personalised <br />
+                          offers you will love
                         </p>
                         <button>Update profile</button>
                       </div>
