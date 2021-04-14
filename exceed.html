@@ -1049,7 +1049,7 @@
                   font-family: "Frutiger LT Std 55 Black";
                 }
                 .thank-you-page button {
-                    position: relative;
+                  position: relative;
                   background-color: #f05983;
                   border: 1px solid #f05983;
                   border-radius: 0;
@@ -1065,13 +1065,13 @@
                   letter-spacing: 2px;
                 }
                 .thank-you-page button::after {
-                    position: absolute;
-                    font-family: "FontAwesome";
-                    content: '\f054';
-                    color: #fff;
-                    right: 1rem;
-                    top: 50%;
-                    transform: translateY(-50%);
+                  position: absolute;
+                  font-family: "FontAwesome";
+                  content: "\f054";
+                  color: #fff;
+                  right: 1rem;
+                  top: 50%;
+                  transform: translateY(-50%);
                 }
                 .thank-you-page h1 {
                   color: #434951;
@@ -1107,9 +1107,21 @@
                 .thank-you-page .mb-3 {
                   margin-bottom: 3rem;
                 }
+                .thank-you-page section.desc .img {
+                  padding: 0 3rem;
+                }
+                .thank-you-page section.desc .copy {
+                  padding: 0 2rem;
+                }
                 @media (max-width: 678px) {
                   .thank-you-page section.desc {
                     padding: 4rem 1rem;
+                  }
+                  .thank-you-page section.desc .img {
+                    padding: 0 2rem;
+                  }
+                  .thank-you-page section.desc .copy {
+                    padding: 0 0;
                   }
                 }
               </style>
@@ -1149,35 +1161,41 @@
                     <div
                       class="col-xs-offset-1 col-sm-offset-2 col-md-offset-0 col-xs-10 col-sm-8 col-md-4"
                     >
-                      <div style="padding: 0 2rem">
+                      <div class="img">
                         <img src="./images/recipe-1.png" alt="" width="100%" />
                       </div>
-                      <p>Try our easy home- <br />cooked meal ideas</p>
-                      <button>View recipes</button>
+                      <div class="copy">
+                        <p>Try our easy home- <br />cooked meal ideas</p>
+                        <button>View recipes</button>
+                      </div>
                     </div>
                     <div
                       class="col-xs-offset-1 col-sm-offset-2 col-md-offset-0 col-xs-10 col-sm-8 col-md-4"
                     >
-                      <div style="padding: 0 2rem">
+                      <div class="img">
                         <img src="./images/recipe-2.png" alt="" width="100%" />
                       </div>
-                      <p>
-                        Join latest Contests &amp; <br />
-                        Events
-                      </p>
-                      <button>Learn more</button>
+                      <div class="copy">
+                        <p>
+                          Join latest Contests &amp; <br />
+                          Events
+                        </p>
+                        <button>Learn more</button>
+                      </div>
                     </div>
                     <div
                       class="col-xs-offset-1 col-sm-offset-2 col-md-offset-0 col-xs-10 col-sm-8 col-md-4"
                     >
-                      <div style="padding: 0 2rem">
+                      <div class="img">
                         <img src="./images/recipe-3.png" alt="" width="100%" />
                       </div>
-                      <p>
-                        Update your profile to receive personalised offers you
-                        will love
-                      </p>
-                      <button>Update profile</button>
+                      <div class="copy">
+                        <p>
+                          Update your profile to receive personalised offers you
+                          will love
+                        </p>
+                        <button>Update profile</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1355,3 +1373,7 @@
     <script src="https://www.dearnestle.com.my/core/misc/ajax.js?v=8.5.11"></script>
   </body>
 </html>
+
+<!-- https://syamman.github.io/dn-rtd/exceed.html
+    https://syamman.github.io/dn-rtd/thank-you.html
+ -->
